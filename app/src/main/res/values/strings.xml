@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">SteamGames</string>
+    <string name="app_name">Steam Games</string>
+    <string name="favourite">Favourites</string>
+    <string name="vertical_ellipsis">&#8942;</string>
 </resources>
