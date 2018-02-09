@@ -43,4 +43,7 @@ dependencies {
 
     //Materialize SearchView
     compile 'com.github.arimorty:floatingsearchview:2.1.1'
+
+    //Anko
+    compile "org.jetbrains.anko:anko-common:0.10.0"
 }

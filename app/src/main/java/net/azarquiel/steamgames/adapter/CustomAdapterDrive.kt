@@ -10,9 +10,9 @@ import net.azarquiel.steamgames.model.GameDrive
 /**
  * Created by alberto on 05/02/2018.
  */
-class CustomAdapter (val context: Context,
-                     val layout: Int,
-                     val games: MutableList<GameDrive>) : RecyclerView.Adapter<CustomAdapter.ViewHolder>(){
+class CustomAdapterDrive(val context: Context,
+                         val layout: Int,
+                         val games: MutableList<GameDrive>) : RecyclerView.Adapter<CustomAdapterDrive.ViewHolder>(){
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
@@ -33,7 +33,6 @@ class CustomAdapter (val context: Context,
 
     inner class ViewHolder(viewlayout: View, val context : Context) : RecyclerView.ViewHolder(viewlayout){
         fun bind(dataItem: GameDrive, position: Int){
-
 
         }
     }
