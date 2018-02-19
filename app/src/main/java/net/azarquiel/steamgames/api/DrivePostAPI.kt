@@ -7,6 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded
 import retrofit2.http.POST
+import rx.Observable
 
 /**
  * Created by alberto on 05/02/2018.
@@ -23,7 +24,7 @@ interface DrivePostAPI {
             @Field("entry.2096260004") image: String,
             @Field("entry.1902952412") price: String,
             @Field("entry.1813775853") movie: String
-    )
+    ): Observable<String>
 
     companion object {
         fun create(): DrivePostAPI {

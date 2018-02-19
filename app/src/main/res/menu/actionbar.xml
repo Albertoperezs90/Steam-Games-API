@@ -5,22 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <item
-        android:id="@+id/settings"
-        android:title="prueba"
-        android:tooltipText="@string/vertical_ellipsis"
-        app:showAsAction="always|withText">
-        <menu>
-            <item
-                android:id="@+id/english"
-                android:title="prueba2"
-                app:showAsAction="always" />
-        </menu>
-    </item>
-
     <item android:id="@+id/favourite"
-        android:icon="@android:drawable/btn_star_big_off"
+        android:icon="@android:drawable/btn_star_big_on"
         android:title="@string/favourite"
         app:showAsAction="ifRoom"/>
-
 </menu>
